@@ -2,14 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  height: 180px;
   padding: 20px;
   color: white;
 }
@@ -23,7 +18,51 @@
   to { transform: rotate(360deg); }
 }
 
-.next-button {
-  font-size: 50px;
+.fav-quote-title {
+  margin-top: 240px;
+  color: #fb6280;
+  background-color: #dbf5f3;
+}
+.fav-quote-title h1{
+  font-family: 'News Cycle', sans-serif;
+}
+.list-item {
+  background-color: #dbf5f3;
+  height: 300px;
+  color: #fb6280;
+}
+.list-item ul{
+  color: #fb6280;
+  list-style-type: none;
+  font-family: 'News Cycle', sans-serif;
+}
+
+.both-buttons{
+  padding: 10px;
+  width: 100%;
+  height: 30px;
   margin-top: 10px;
+  font-size: 15px;
+  font-family: 'News Cycle', sans-serif;
+  color: pink;
+}
+
+.add-button {
+  color: #fb6280;
+ }
+ .next-button {
+  margin-left: 15px;
+  color: #fb6280;
+ }
+.list-items {
+  color: #fb6280;
+  margin-top: -30px;
+  font-size: 15px;
+  font-family: 'News Cycle', sans-serif;
+}
+.delete{
+  margin-top: 40px;
+}
+.li {
+  padding: 5px;
 }

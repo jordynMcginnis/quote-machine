@@ -2,4 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #ddf1f2;
+  background-image: url('./photo/fl.jpg');
+  background-size: 50% auto;
 }
