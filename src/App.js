@@ -95,7 +95,7 @@ class Results extends Component{
   render () {
     return (
       <div className='main'>
-        <div>{ !this.state.quote ? <p> Loading</p> : <QuotesResults quote={this.state.quote}/>} </div>
+        <div>{ !this.state.quote ? <p className='load'> Loading</p> : <QuotesResults quote={this.state.quote}/>} </div>
         <NextResults
           updateQuote={this.updateQuote}
           listItem={this.state.list}
